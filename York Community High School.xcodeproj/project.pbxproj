@@ -1,0 +1,1361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0056EF91D7B7F7300A5F17D /* FallActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0056EF81D7B7F7300A5F17D /* FallActivitiesTableViewController.swift */; };
+		B01786EB1D554523000A4372 /* FALL SPORTS Data Holder in Resources */ = {isa = PBXBuildFile; fileRef = B01786EA1D554523000A4372 /* FALL SPORTS Data Holder */; };
+		B018CDBF1E5A966100B1A002 /* MainScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018CDBE1E5A966100B1A002 /* MainScrollViewController.swift */; };
+		B018CDC11E5A9BD200B1A002 /* SpringSportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B018CDC01E5A9BD200B1A002 /* SpringSportsTableViewController.swift */; };
+		B032B9891DF4A52400B26C5D /* FreshmanABasketballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032B9881DF4A52400B26C5D /* FreshmanABasketballTableViewController.swift */; };
+		B032B98B1DF4A82E00B26C5D /* BasketballGirlsFreshBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032B98A1DF4A82E00B26C5D /* BasketballGirlsFreshBTableViewController.swift */; };
+		B032B98D1DF4ACFD00B26C5D /* JV2GymnasticsGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032B98C1DF4ACFD00B26C5D /* JV2GymnasticsGirlsTableViewController.swift */; };
+		B032B98F1DF4AD0F00B26C5D /* FreshmanGymnasticsGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B032B98E1DF4AD0F00B26C5D /* FreshmanGymnasticsGirlsTableViewController.swift */; };
+		B032B99F1DF4CED400B26C5D /* Acrobatics Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B9931DF4CED400B26C5D /* Acrobatics Filled-50@2x.png */; };
+		B032B9A01DF4CED400B26C5D /* Acrobatics-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B9941DF4CED400B26C5D /* Acrobatics-50@2x.png */; };
+		B032B9A11DF4CED400B26C5D /* Basketball Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B9951DF4CED400B26C5D /* Basketball Filled-50@2x.png */; };
+		B032B9A21DF4CED400B26C5D /* Basketball-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B9961DF4CED400B26C5D /* Basketball-50@2x.png */; };
+		B032B9A31DF4CED400B26C5D /* Bowling Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B9971DF4CED400B26C5D /* Bowling Filled-50@2x.png */; };
+		B032B9A41DF4CED400B26C5D /* Bowling-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B9981DF4CED400B26C5D /* Bowling-50@2x.png */; };
+		B032B9A61DF4CED400B26C5D /* Dancing Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B99A1DF4CED400B26C5D /* Dancing Filled-50@2x.png */; };
+		B032B9A71DF4CED400B26C5D /* Pom Pons@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B99B1DF4CED400B26C5D /* Pom Pons@2x.png */; };
+		B032B9A81DF4CED400B26C5D /* Trampoline Park Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B99C1DF4CED400B26C5D /* Trampoline Park Filled-50@2x.png */; };
+		B032B9A91DF4CED400B26C5D /* Wrestling Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B99D1DF4CED400B26C5D /* Wrestling Filled-50@2x.png */; };
+		B032B9AA1DF4CED400B26C5D /* Wrestling-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B032B99E1DF4CED400B26C5D /* Wrestling-50@2x.png */; };
+		B03844E01D3EAB8B00DA463B /* RSSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03844DF1D3EAB8B00DA463B /* RSSTableViewController.m */; };
+		B049676D1D53EE720041A65C /* Football Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B049676C1D53EE720041A65C /* Football Filled-50@2x.png */; };
+		B049676F1D53F25C0041A65C /* JVFootballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049676E1D53F25C0041A65C /* JVFootballTableViewController.swift */; };
+		B04967711D53F7620041A65C /* SophomoreFootballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04967701D53F7620041A65C /* SophomoreFootballTableViewController.swift */; };
+		B04967731D53F9600041A65C /* FAFootballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04967721D53F9600041A65C /* FAFootballTableViewController.swift */; };
+		B04967751D53FA6D0041A65C /* FBFootballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04967741D53FA6D0041A65C /* FBFootballTableViewController.swift */; };
+		B061575E1D385DE8009F2E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061575D1D385DE8009F2E02 /* AppDelegate.swift */; };
+		B06157601D385DE8009F2E02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061575F1D385DE8009F2E02 /* ViewController.swift */; };
+		B06157631D385DE8009F2E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06157611D385DE8009F2E02 /* Main.storyboard */; };
+		B06157651D385DE8009F2E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06157641D385DE8009F2E02 /* Assets.xcassets */; };
+		B06157681D385DE8009F2E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06157661D385DE8009F2E02 /* LaunchScreen.storyboard */; };
+		B06157731D385DE8009F2E02 /* York_Community_High_SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06157721D385DE8009F2E02 /* York_Community_High_SchoolTests.swift */; };
+		B061577E1D385DE8009F2E02 /* York_Community_High_SchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061577D1D385DE8009F2E02 /* York_Community_High_SchoolUITests.swift */; };
+		B06157BD1D3D6F9C009F2E02 /* FallTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06157BC1D3D6F9C009F2E02 /* FallTableViewController.swift */; };
+		B06157BF1D3D89D0009F2E02 /* FallSportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06157BE1D3D89D0009F2E02 /* FallSportsTableViewController.swift */; };
+		B062A36B1D6101C9009613D8 /* VarsityXCBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A36A1D6101C9009613D8 /* VarsityXCBoysTableViewController.swift */; };
+		B062A36D1D610B1E009613D8 /* SophomoreXCBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A36C1D610B1E009613D8 /* SophomoreXCBoysTableViewController.swift */; };
+		B062A36F1D610B7C009613D8 /* JVXCBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A36E1D610B7C009613D8 /* JVXCBoysTableViewController.swift */; };
+		B062A3711D610BD2009613D8 /* FreshmanXCBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3701D610BD2009613D8 /* FreshmanXCBoysTableViewController.swift */; };
+		B062A3741D610DC3009613D8 /* VarsityXCGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3731D610DC3009613D8 /* VarsityXCGirlsTableViewController.swift */; };
+		B062A3761D610DD9009613D8 /* SophomoreXCGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3751D610DD9009613D8 /* SophomoreXCGirlsTableViewController.swift */; };
+		B062A3781D610DEA009613D8 /* JVXCGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3771D610DEA009613D8 /* JVXCGirlsTableViewController.swift */; };
+		B062A37A1D610E0B009613D8 /* FreshmanXCGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3791D610E0B009613D8 /* FreshmanXCGirlsTableViewController.swift */; };
+		B062A37D1D6D2BA7009613D8 /* VarsityGolfBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A37C1D6D2BA7009613D8 /* VarsityGolfBoysTableViewController.swift */; };
+		B062A37F1D6D2BBA009613D8 /* SophomoreGolfBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A37E1D6D2BBA009613D8 /* SophomoreGolfBoysTableViewController.swift */; };
+		B062A3821D6D2EF7009613D8 /* VarsityGolfGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3811D6D2EF7009613D8 /* VarsityGolfGirlsTableViewController.swift */; };
+		B062A3841D6D2F10009613D8 /* JVGolfGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3831D6D2F10009613D8 /* JVGolfGirlsTableViewController.swift */; };
+		B062A3871D6D30AF009613D8 /* VarsitySoccerBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3861D6D30AF009613D8 /* VarsitySoccerBoysTableViewController.swift */; };
+		B062A3891D6D30CD009613D8 /* SophomoreSoccerBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3881D6D30CD009613D8 /* SophomoreSoccerBoysTableViewController.swift */; };
+		B062A38B1D6D30E0009613D8 /* JVSoccerBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A38A1D6D30E0009613D8 /* JVSoccerBoysTableViewController.swift */; };
+		B062A38D1D6D30EC009613D8 /* FreshmanSoccerBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A38C1D6D30EC009613D8 /* FreshmanSoccerBoysTableViewController.swift */; };
+		B062A38F1D6D30F8009613D8 /* FreshBSoccerBoysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A38E1D6D30F8009613D8 /* FreshBSoccerBoysTableViewController.swift */; };
+		B062A3921D6D366F009613D8 /* VarsityTennisGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3911D6D366F009613D8 /* VarsityTennisGirlsTableViewController.swift */; };
+		B062A3941D6D3680009613D8 /* JV1TennisGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3931D6D3680009613D8 /* JV1TennisGirlsTableViewController.swift */; };
+		B062A3961D6D368F009613D8 /* JV2TennisGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3951D6D368F009613D8 /* JV2TennisGirlsTableViewController.swift */; };
+		B062A39A1D7274B1009613D8 /* VarsitySwimmingGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3991D7274B1009613D8 /* VarsitySwimmingGirlsTableViewController.swift */; };
+		B062A39C1D727529009613D8 /* SophomoreSwimmingGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A39B1D727529009613D8 /* SophomoreSwimmingGirlsTableViewController.swift */; };
+		B062A39E1D727539009613D8 /* JVSwimmingGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A39D1D727539009613D8 /* JVSwimmingGirlsTableViewController.swift */; };
+		B062A3A21D7277F7009613D8 /* VarsityVolleyballGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3A11D7277F7009613D8 /* VarsityVolleyballGirlsTableViewController.swift */; };
+		B062A3A41D727814009613D8 /* SophomoreVolleyballGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3A31D727814009613D8 /* SophomoreVolleyballGirlsTableViewController.swift */; };
+		B062A3A61D727829009613D8 /* FAVolleyballGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3A51D727829009613D8 /* FAVolleyballGirlsTableViewController.swift */; };
+		B062A3A81D727836009613D8 /* FBVolleyballGirlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3A71D727836009613D8 /* FBVolleyballGirlsTableViewController.swift */; };
+		B062A3AD1D727B60009613D8 /* Tennis Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B062A3AA1D727B60009613D8 /* Tennis Filled-50@2x.png */; };
+		B062A3AE1D727B60009613D8 /* Volleyball Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B062A3AB1D727B60009613D8 /* Volleyball Filled-50@2x.png */; };
+		B062A3B01D727DFE009613D8 /* Soccer (Girls)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B062A3AF1D727DFE009613D8 /* Soccer (Girls)@2x.png */; };
+		B062A3B51D728A50009613D8 /* InstantCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3B41D728A50009613D8 /* InstantCommon.swift */; };
+		B062A3B71D728A7B009613D8 /* InstantRssRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3B61D728A7B009613D8 /* InstantRssRecord.swift */; };
+		B062A3B91D728AB2009613D8 /* InstantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3B81D728AB2009613D8 /* InstantListViewController.swift */; };
+		B062A3BB1D728AF1009613D8 /* InstantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B062A3BA1D728AF1009613D8 /* InstantDetailsViewController.swift */; };
+		B07B14D81D3DCC60003EDA7A /* WinterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07B14D71D3DCC60003EDA7A /* WinterTableViewController.swift */; };
+		B07B14DA1D3DCDD1003EDA7A /* SpringTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07B14D91D3DCDD1003EDA7A /* SpringTableViewController.swift */; };
+		B07B14DC1D3DCFDE003EDA7A /* FallPerfArtsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07B14DB1D3DCFDE003EDA7A /* FallPerfArtsTableViewController.swift */; };
+		B08929B41E8F04D300A8C5AD /* BadmintonJVTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929B31E8F04D300A8C5AD /* BadmintonJVTableViewController.swift */; };
+		B08929B61E8F04E700A8C5AD /* BadmintonFreshTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929B51E8F04E700A8C5AD /* BadmintonFreshTableViewController.swift */; };
+		B08929B81E8F05D400A8C5AD /* JVBaseballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929B71E8F05D400A8C5AD /* JVBaseballTableViewController.swift */; };
+		B08929BE1E8F367F00A8C5AD /* VarsityVolleyballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929BD1E8F367F00A8C5AD /* VarsityVolleyballTableViewController.swift */; };
+		B08929C01E8F368C00A8C5AD /* JVVolleyballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929BF1E8F368C00A8C5AD /* JVVolleyballTableViewController.swift */; };
+		B08929C21E8F369700A8C5AD /* FAVolleyballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929C11E8F369700A8C5AD /* FAVolleyballTableViewController.swift */; };
+		B08929C41E8F36A300A8C5AD /* FBVolleyballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929C31E8F36A300A8C5AD /* FBVolleyballTableViewController.swift */; };
+		B08929C61E8F379600A8C5AD /* VarsityBPoloTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929C51E8F379600A8C5AD /* VarsityBPoloTableViewController.swift */; };
+		B08929C81E8F37A000A8C5AD /* JVBPoloTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929C71E8F37A000A8C5AD /* JVBPoloTableViewController.swift */; };
+		B08929CA1E8F37AC00A8C5AD /* VaristyGPoloTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929C91E8F37AC00A8C5AD /* VaristyGPoloTableViewController.swift */; };
+		B08929CC1E8F37B600A8C5AD /* JVGPoloTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08929CB1E8F37B600A8C5AD /* JVGPoloTableViewController.swift */; };
+		B08929DA1E8F495800A8C5AD /* Baseball Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08929D41E8F495800A8C5AD /* Baseball Filled-50@2x.png */; };
+		B08929DB1E8F495900A8C5AD /* Baseball-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08929D51E8F495800A8C5AD /* Baseball-50@2x.png */; };
+		B08929DC1E8F495900A8C5AD /* Lacrosse Stick Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08929D61E8F495800A8C5AD /* Lacrosse Stick Filled-50@2x.png */; };
+		B08929DD1E8F495900A8C5AD /* Lacrosse Stick-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08929D71E8F495800A8C5AD /* Lacrosse Stick-50@2x.png */; };
+		B08929DF1E8F495900A8C5AD /* Shuttercock-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08929D91E8F495800A8C5AD /* Shuttercock-50@2x.png */; };
+		B08929E11E8F49C100A8C5AD /* Shuttercock Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08929E01E8F49C100A8C5AD /* Shuttercock Filled-50@2x.png */; };
+		B09065291E133B25003B14C6 /* BasketballSOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09065281E133B25003B14C6 /* BasketballSOTableViewController.swift */; };
+		B0A257E31E18AE7400AD01B8 /* Pom Pons@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A257E21E18AE7400AD01B8 /* Pom Pons@2x.png */; };
+		B0A257E61E18B1B500AD01B8 /* BlogCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A257E51E18B1B500AD01B8 /* BlogCommon.swift */; };
+		B0A257E81E18B1E600AD01B8 /* BlogRssRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A257E71E18B1E600AD01B8 /* BlogRssRecord.swift */; };
+		B0A257EA1E18B22B00AD01B8 /* BlogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A257E91E18B22B00AD01B8 /* BlogListViewController.swift */; };
+		B0A257EC1E18B23B00AD01B8 /* BlogDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A257EB1E18B23B00AD01B8 /* BlogDetailsViewController.swift */; };
+		B0A257EE1E18C5FE00AD01B8 /* BlogNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A257ED1E18C5FE00AD01B8 /* BlogNavViewController.swift */; };
+		B0C50B1C1D5143D000821F4F /* VarsityFootballTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C50B1B1D5143D000821F4F /* VarsityFootballTableViewController.swift */; };
+		B0C50B1E1D51451500821F4F /* FootballTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C50B1D1D51451500821F4F /* FootballTableViewCell.swift */; };
+		B0D18E271D3F0A8A0077AAE4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E231D3F0A8A0077AAE4 /* Common.swift */; };
+		B0D18E281D3F0A8A0077AAE4 /* RssRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E241D3F0A8A0077AAE4 /* RssRecord.swift */; };
+		B0D18E291D3F0A8A0077AAE4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E251D3F0A8A0077AAE4 /* ListViewController.swift */; };
+		B0D18E2A1D3F0A8A0077AAE4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E261D3F0A8A0077AAE4 /* DetailsViewController.swift */; };
+		B0D18E421D3F241E0077AAE4 /* AthleticsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E411D3F241E0077AAE4 /* AthleticsCommon.swift */; };
+		B0D18E441D3F24A10077AAE4 /* AthleticsRSSRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E431D3F24A10077AAE4 /* AthleticsRSSRecord.swift */; };
+		B0D18E461D3F24E10077AAE4 /* AthleticsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E451D3F24E10077AAE4 /* AthleticsListViewController.swift */; };
+		B0D18E481D3F255B0077AAE4 /* AthleticsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E471D3F255B0077AAE4 /* AthleticsDetailsViewController.swift */; };
+		B0D18E4A1D3F268F0077AAE4 /* SpecificUpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E491D3F268F0077AAE4 /* SpecificUpdatesViewController.swift */; };
+		B0D18E4D1D3FE8620077AAE4 /* AcademicsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E4C1D3FE8620077AAE4 /* AcademicsCommon.swift */; };
+		B0D18E4F1D3FE8730077AAE4 /* AcademicsRSSRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E4E1D3FE8730077AAE4 /* AcademicsRSSRecord.swift */; };
+		B0D18E511D3FE9050077AAE4 /* AcademicsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E501D3FE9050077AAE4 /* AcademicsListViewController.swift */; };
+		B0D18E531D3FE9CF0077AAE4 /* AcademicsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E521D3FE9CF0077AAE4 /* AcademicsDetailsViewController.swift */; };
+		B0D18E561D3FEB260077AAE4 /* ParentsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E551D3FEB260077AAE4 /* ParentsCommon.swift */; };
+		B0D18E581D3FEB390077AAE4 /* ParentsRSSRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E571D3FEB390077AAE4 /* ParentsRSSRecord.swift */; };
+		B0D18E5A1D3FEB7F0077AAE4 /* ParentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E591D3FEB7F0077AAE4 /* ParentsListViewController.swift */; };
+		B0D18E5C1D3FEB8F0077AAE4 /* ParentsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E5B1D3FEB8F0077AAE4 /* ParentsDetailsViewController.swift */; };
+		B0D18E5F1D3FED460077AAE4 /* ClubsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E5E1D3FED460077AAE4 /* ClubsListViewController.swift */; };
+		B0D18E611D3FED550077AAE4 /* ClubsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E601D3FED550077AAE4 /* ClubsDetailsViewController.swift */; };
+		B0D18E631D3FED6D0077AAE4 /* ClubsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E621D3FED6D0077AAE4 /* ClubsCommon.swift */; };
+		B0D18E651D3FED7F0077AAE4 /* ClubsRSSRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D18E641D3FED7F0077AAE4 /* ClubsRSSRecord.swift */; };
+		B0D18E6D1D4003A90077AAE4 /* Activity Feed Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E661D4003A90077AAE4 /* Activity Feed Filled-50@2x.png */; };
+		B0D18E6E1D4003A90077AAE4 /* Activity Feed-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E671D4003A90077AAE4 /* Activity Feed-50@2x.png */; };
+		B0D18E6F1D4003A90077AAE4 /* Calendar Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E681D4003A90077AAE4 /* Calendar Filled-50@2x.png */; };
+		B0D18E701D4003A90077AAE4 /* Calendar-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E691D4003A90077AAE4 /* Calendar-50@2x.png */; };
+		B0D18E711D4003A90077AAE4 /* Document Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E6A1D4003A90077AAE4 /* Document Filled-50@2x.png */; };
+		B0D18E721D4003A90077AAE4 /* Document-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E6B1D4003A90077AAE4 /* Document-50@2x.png */; };
+		B0D18E751D4003BC0077AAE4 /* Fall Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E741D4003BC0077AAE4 /* Fall Play@2x.png */; };
+		B0D18E821D4003C60077AAE4 /* Cheerleading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E761D4003C60077AAE4 /* Cheerleading@2x.png */; };
+		B0D18E831D4003C60077AAE4 /* Cross Country (Boys)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E771D4003C60077AAE4 /* Cross Country (Boys)@2x.png */; };
+		B0D18E841D4003C60077AAE4 /* Cross Country (Girls)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E781D4003C60077AAE4 /* Cross Country (Girls)@2x.png */; };
+		B0D18E851D4003C60077AAE4 /* Football@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E791D4003C60077AAE4 /* Football@2x.png */; };
+		B0D18E861D4003C60077AAE4 /* Golf (Boys)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E7A1D4003C60077AAE4 /* Golf (Boys)@2x.png */; };
+		B0D18E871D4003C60077AAE4 /* Golf (Girls)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E7B1D4003C60077AAE4 /* Golf (Girls)@2x.png */; };
+		B0D18E891D4003C60077AAE4 /* Soccer (Boys)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E7D1D4003C60077AAE4 /* Soccer (Boys)@2x.png */; };
+		B0D18E8A1D4003C60077AAE4 /* Swimming,Diving (Boys)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E7E1D4003C60077AAE4 /* Swimming,Diving (Boys)@2x.png */; };
+		B0D18E8B1D4003C60077AAE4 /* Swimming,Diving (Girls)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E7F1D4003C60077AAE4 /* Swimming,Diving (Girls)@2x.png */; };
+		B0D18E8C1D4003C60077AAE4 /* Tennis (Girls)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E801D4003C60077AAE4 /* Tennis (Girls)@2x.png */; };
+		B0D18E8D1D4003C60077AAE4 /* Volleyball (Girls)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E811D4003C60077AAE4 /* Volleyball (Girls)@2x.png */; };
+		B0D18E8F1D4003D40077AAE4 /* York High School 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E8E1D4003D40077AAE4 /* York High School 2.jpg */; };
+		B0D18E931D4003DC0077AAE4 /* Leaf-100.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E901D4003DC0077AAE4 /* Leaf-100.png */; };
+		B0D18E941D4003DC0077AAE4 /* Maple Leaf-100.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E911D4003DC0077AAE4 /* Maple Leaf-100.png */; };
+		B0D18E951D4003DC0077AAE4 /* Winter-100.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E921D4003DC0077AAE4 /* Winter-100.png */; };
+		B0D18E971D4003E30077AAE4 /* Grass-100.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E961D4003E30077AAE4 /* Grass-100.png */; };
+		B0D18E991D400B930077AAE4 /* Delete-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D18E981D400B930077AAE4 /* Delete-50@2x.png */; };
+		B0D62FDD1E5B973A0097D00E /* Schedules Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D62FDB1E5B973A0097D00E /* Schedules Background.png */; };
+		B0D62FDE1E5B973A0097D00E /* Updates:Blog Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D62FDC1E5B973A0097D00E /* Updates:Blog Background.png */; };
+		B0ECA9071F3A703500108132 /* RSS Filled-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ECA9051F3A703500108132 /* RSS Filled-50@2x.png */; };
+		B0ECA9081F3A703500108132 /* RSS-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ECA9061F3A703500108132 /* RSS-50@2x.png */; };
+		B0F555731E9591CF00066BC1 /* York High School 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0F555721E9591CF00066BC1 /* York High School 2.jpg */; };
+		B0F555751E9591FA00066BC1 /* York High School 2 copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0F555741E9591FA00066BC1 /* York High School 2 copy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B061576F1D385DE8009F2E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06157521D385DE7009F2E02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06157591D385DE7009F2E02;
+			remoteInfo = "York Community High School";
+		};
+		B061577A1D385DE8009F2E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06157521D385DE7009F2E02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06157591D385DE7009F2E02;
+			remoteInfo = "York Community High School";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0056EF81D7B7F7300A5F17D /* FallActivitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallActivitiesTableViewController.swift; sourceTree = "<group>"; };
+		B01786EA1D554523000A4372 /* FALL SPORTS Data Holder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FALL SPORTS Data Holder"; sourceTree = "<group>"; };
+		B018CDBE1E5A966100B1A002 /* MainScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollViewController.swift; sourceTree = "<group>"; };
+		B018CDC01E5A9BD200B1A002 /* SpringSportsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringSportsTableViewController.swift; sourceTree = "<group>"; };
+		B032B9881DF4A52400B26C5D /* FreshmanABasketballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshmanABasketballTableViewController.swift; sourceTree = "<group>"; };
+		B032B98A1DF4A82E00B26C5D /* BasketballGirlsFreshBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketballGirlsFreshBTableViewController.swift; sourceTree = "<group>"; };
+		B032B98C1DF4ACFD00B26C5D /* JV2GymnasticsGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JV2GymnasticsGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B032B98E1DF4AD0F00B26C5D /* FreshmanGymnasticsGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshmanGymnasticsGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B032B9931DF4CED400B26C5D /* Acrobatics Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acrobatics Filled-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Acrobatics Filled-50@2x.png"; sourceTree = "<group>"; };
+		B032B9941DF4CED400B26C5D /* Acrobatics-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acrobatics-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Acrobatics-50@2x.png"; sourceTree = "<group>"; };
+		B032B9951DF4CED400B26C5D /* Basketball Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Basketball Filled-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Basketball Filled-50@2x.png"; sourceTree = "<group>"; };
+		B032B9961DF4CED400B26C5D /* Basketball-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Basketball-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Basketball-50@2x.png"; sourceTree = "<group>"; };
+		B032B9971DF4CED400B26C5D /* Bowling Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bowling Filled-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Bowling Filled-50@2x.png"; sourceTree = "<group>"; };
+		B032B9981DF4CED400B26C5D /* Bowling-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bowling-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Bowling-50@2x.png"; sourceTree = "<group>"; };
+		B032B99A1DF4CED400B26C5D /* Dancing Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dancing Filled-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Dancing Filled-50@2x.png"; sourceTree = "<group>"; };
+		B032B99B1DF4CED400B26C5D /* Pom Pons@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pom Pons@2x.png"; path = "../../Desktop/York App/Winter Sports/Pom Pons@2x.png"; sourceTree = "<group>"; };
+		B032B99C1DF4CED400B26C5D /* Trampoline Park Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trampoline Park Filled-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Trampoline Park Filled-50@2x.png"; sourceTree = "<group>"; };
+		B032B99D1DF4CED400B26C5D /* Wrestling Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wrestling Filled-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Wrestling Filled-50@2x.png"; sourceTree = "<group>"; };
+		B032B99E1DF4CED400B26C5D /* Wrestling-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wrestling-50@2x.png"; path = "../../Desktop/York App/Winter Sports/Wrestling-50@2x.png"; sourceTree = "<group>"; };
+		B03844DE1D3EAB8B00DA463B /* RSSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSTableViewController.h; sourceTree = "<group>"; };
+		B03844DF1D3EAB8B00DA463B /* RSSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSTableViewController.m; sourceTree = "<group>"; };
+		B049676C1D53EE720041A65C /* Football Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Football Filled-50@2x.png"; path = "../../Desktop/York App/Fall Sports/Football Filled-50@2x.png"; sourceTree = "<group>"; };
+		B049676E1D53F25C0041A65C /* JVFootballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVFootballTableViewController.swift; sourceTree = "<group>"; };
+		B04967701D53F7620041A65C /* SophomoreFootballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SophomoreFootballTableViewController.swift; sourceTree = "<group>"; };
+		B04967721D53F9600041A65C /* FAFootballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAFootballTableViewController.swift; sourceTree = "<group>"; };
+		B04967741D53FA6D0041A65C /* FBFootballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFootballTableViewController.swift; sourceTree = "<group>"; };
+		B061575A1D385DE7009F2E02 /* York Community High School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "York Community High School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B061575D1D385DE8009F2E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B061575F1D385DE8009F2E02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B06157621D385DE8009F2E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B06157641D385DE8009F2E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06157671D385DE8009F2E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B06157691D385DE8009F2E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B061576E1D385DE8009F2E02 /* York Community High SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "York Community High SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06157721D385DE8009F2E02 /* York_Community_High_SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = York_Community_High_SchoolTests.swift; sourceTree = "<group>"; };
+		B06157741D385DE8009F2E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06157791D385DE8009F2E02 /* York Community High SchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "York Community High SchoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B061577D1D385DE8009F2E02 /* York_Community_High_SchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = York_Community_High_SchoolUITests.swift; sourceTree = "<group>"; };
+		B061577F1D385DE8009F2E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06157BC1D3D6F9C009F2E02 /* FallTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallTableViewController.swift; sourceTree = "<group>"; };
+		B06157BE1D3D89D0009F2E02 /* FallSportsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallSportsTableViewController.swift; sourceTree = "<group>"; };
+		B062A36A1D6101C9009613D8 /* VarsityXCBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityXCBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A36C1D610B1E009613D8 /* SophomoreXCBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SophomoreXCBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A36E1D610B7C009613D8 /* JVXCBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVXCBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A3701D610BD2009613D8 /* FreshmanXCBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshmanXCBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A3731D610DC3009613D8 /* VarsityXCGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityXCGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3751D610DD9009613D8 /* SophomoreXCGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SophomoreXCGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3771D610DEA009613D8 /* JVXCGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVXCGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3791D610E0B009613D8 /* FreshmanXCGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshmanXCGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A37C1D6D2BA7009613D8 /* VarsityGolfBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityGolfBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A37E1D6D2BBA009613D8 /* SophomoreGolfBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SophomoreGolfBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A3811D6D2EF7009613D8 /* VarsityGolfGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityGolfGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3831D6D2F10009613D8 /* JVGolfGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVGolfGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3861D6D30AF009613D8 /* VarsitySoccerBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsitySoccerBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A3881D6D30CD009613D8 /* SophomoreSoccerBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SophomoreSoccerBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A38A1D6D30E0009613D8 /* JVSoccerBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVSoccerBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A38C1D6D30EC009613D8 /* FreshmanSoccerBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshmanSoccerBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A38E1D6D30F8009613D8 /* FreshBSoccerBoysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreshBSoccerBoysTableViewController.swift; sourceTree = "<group>"; };
+		B062A3911D6D366F009613D8 /* VarsityTennisGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityTennisGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3931D6D3680009613D8 /* JV1TennisGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JV1TennisGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3951D6D368F009613D8 /* JV2TennisGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JV2TennisGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3991D7274B1009613D8 /* VarsitySwimmingGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsitySwimmingGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A39B1D727529009613D8 /* SophomoreSwimmingGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SophomoreSwimmingGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A39D1D727539009613D8 /* JVSwimmingGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVSwimmingGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3A11D7277F7009613D8 /* VarsityVolleyballGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityVolleyballGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3A31D727814009613D8 /* SophomoreVolleyballGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SophomoreVolleyballGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3A51D727829009613D8 /* FAVolleyballGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAVolleyballGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3A71D727836009613D8 /* FBVolleyballGirlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBVolleyballGirlsTableViewController.swift; sourceTree = "<group>"; };
+		B062A3AA1D727B60009613D8 /* Tennis Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tennis Filled-50@2x.png"; path = "../../Desktop/York App/Fall Sports/Tennis Filled-50@2x.png"; sourceTree = "<group>"; };
+		B062A3AB1D727B60009613D8 /* Volleyball Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Volleyball Filled-50@2x.png"; path = "../../Desktop/York App/Fall Sports/Volleyball Filled-50@2x.png"; sourceTree = "<group>"; };
+		B062A3AF1D727DFE009613D8 /* Soccer (Girls)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Soccer (Girls)@2x.png"; path = "../../Desktop/York App/Fall Sports/Soccer (Girls)@2x.png"; sourceTree = "<group>"; };
+		B062A3B41D728A50009613D8 /* InstantCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstantCommon.swift; sourceTree = "<group>"; };
+		B062A3B61D728A7B009613D8 /* InstantRssRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstantRssRecord.swift; sourceTree = "<group>"; };
+		B062A3B81D728AB2009613D8 /* InstantListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstantListViewController.swift; sourceTree = "<group>"; };
+		B062A3BA1D728AF1009613D8 /* InstantDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstantDetailsViewController.swift; sourceTree = "<group>"; };
+		B07B14D71D3DCC60003EDA7A /* WinterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinterTableViewController.swift; sourceTree = "<group>"; };
+		B07B14D91D3DCDD1003EDA7A /* SpringTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTableViewController.swift; sourceTree = "<group>"; };
+		B07B14DB1D3DCFDE003EDA7A /* FallPerfArtsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallPerfArtsTableViewController.swift; sourceTree = "<group>"; };
+		B08929B31E8F04D300A8C5AD /* BadmintonJVTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadmintonJVTableViewController.swift; sourceTree = "<group>"; };
+		B08929B51E8F04E700A8C5AD /* BadmintonFreshTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadmintonFreshTableViewController.swift; sourceTree = "<group>"; };
+		B08929B71E8F05D400A8C5AD /* JVBaseballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVBaseballTableViewController.swift; sourceTree = "<group>"; };
+		B08929BD1E8F367F00A8C5AD /* VarsityVolleyballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityVolleyballTableViewController.swift; sourceTree = "<group>"; };
+		B08929BF1E8F368C00A8C5AD /* JVVolleyballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVVolleyballTableViewController.swift; sourceTree = "<group>"; };
+		B08929C11E8F369700A8C5AD /* FAVolleyballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAVolleyballTableViewController.swift; sourceTree = "<group>"; };
+		B08929C31E8F36A300A8C5AD /* FBVolleyballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBVolleyballTableViewController.swift; sourceTree = "<group>"; };
+		B08929C51E8F379600A8C5AD /* VarsityBPoloTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityBPoloTableViewController.swift; sourceTree = "<group>"; };
+		B08929C71E8F37A000A8C5AD /* JVBPoloTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVBPoloTableViewController.swift; sourceTree = "<group>"; };
+		B08929C91E8F37AC00A8C5AD /* VaristyGPoloTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaristyGPoloTableViewController.swift; sourceTree = "<group>"; };
+		B08929CB1E8F37B600A8C5AD /* JVGPoloTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JVGPoloTableViewController.swift; sourceTree = "<group>"; };
+		B08929D41E8F495800A8C5AD /* Baseball Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Baseball Filled-50@2x.png"; path = "../../Desktop/York App/Spring Sports/Baseball Filled-50@2x.png"; sourceTree = "<group>"; };
+		B08929D51E8F495800A8C5AD /* Baseball-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Baseball-50@2x.png"; path = "../../Desktop/York App/Spring Sports/Baseball-50@2x.png"; sourceTree = "<group>"; };
+		B08929D61E8F495800A8C5AD /* Lacrosse Stick Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lacrosse Stick Filled-50@2x.png"; path = "../../Desktop/York App/Spring Sports/Lacrosse Stick Filled-50@2x.png"; sourceTree = "<group>"; };
+		B08929D71E8F495800A8C5AD /* Lacrosse Stick-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Lacrosse Stick-50@2x.png"; path = "../../Desktop/York App/Spring Sports/Lacrosse Stick-50@2x.png"; sourceTree = "<group>"; };
+		B08929D91E8F495800A8C5AD /* Shuttercock-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Shuttercock-50@2x.png"; path = "../../Desktop/York App/Spring Sports/Shuttercock-50@2x.png"; sourceTree = "<group>"; };
+		B08929E01E8F49C100A8C5AD /* Shuttercock Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Shuttercock Filled-50@2x.png"; path = "../../Desktop/York App/Spring Sports/Shuttercock Filled-50@2x.png"; sourceTree = "<group>"; };
+		B09065281E133B25003B14C6 /* BasketballSOTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketballSOTableViewController.swift; sourceTree = "<group>"; };
+		B0A257E21E18AE7400AD01B8 /* Pom Pons@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pom Pons@2x.png"; path = "../../Desktop/York App/Winter Sports/Pom Pons@2x.png"; sourceTree = "<group>"; };
+		B0A257E51E18B1B500AD01B8 /* BlogCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogCommon.swift; sourceTree = "<group>"; };
+		B0A257E71E18B1E600AD01B8 /* BlogRssRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogRssRecord.swift; sourceTree = "<group>"; };
+		B0A257E91E18B22B00AD01B8 /* BlogListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogListViewController.swift; sourceTree = "<group>"; };
+		B0A257EB1E18B23B00AD01B8 /* BlogDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogDetailsViewController.swift; sourceTree = "<group>"; };
+		B0A257ED1E18C5FE00AD01B8 /* BlogNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogNavViewController.swift; sourceTree = "<group>"; };
+		B0C50B1B1D5143D000821F4F /* VarsityFootballTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VarsityFootballTableViewController.swift; sourceTree = "<group>"; };
+		B0C50B1D1D51451500821F4F /* FootballTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootballTableViewCell.swift; sourceTree = "<group>"; };
+		B0D18E231D3F0A8A0077AAE4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = "../../../Downloads/SwiftRSSReader-master/SwiftRSSReader/SwiftRSSReader/Common.swift"; sourceTree = "<group>"; };
+		B0D18E241D3F0A8A0077AAE4 /* RssRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RssRecord.swift; path = "../../../Downloads/SwiftRSSReader-master/SwiftRSSReader/SwiftRSSReader/RssRecord.swift"; sourceTree = "<group>"; };
+		B0D18E251D3F0A8A0077AAE4 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = "../../../Downloads/SwiftRSSReader-master/SwiftRSSReader/SwiftRSSReader/ListViewController.swift"; sourceTree = "<group>"; };
+		B0D18E261D3F0A8A0077AAE4 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = "../../../Downloads/SwiftRSSReader-master/SwiftRSSReader/SwiftRSSReader/DetailsViewController.swift"; sourceTree = "<group>"; };
+		B0D18E411D3F241E0077AAE4 /* AthleticsCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleticsCommon.swift; sourceTree = "<group>"; };
+		B0D18E431D3F24A10077AAE4 /* AthleticsRSSRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleticsRSSRecord.swift; sourceTree = "<group>"; };
+		B0D18E451D3F24E10077AAE4 /* AthleticsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleticsListViewController.swift; sourceTree = "<group>"; };
+		B0D18E471D3F255B0077AAE4 /* AthleticsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleticsDetailsViewController.swift; sourceTree = "<group>"; };
+		B0D18E491D3F268F0077AAE4 /* SpecificUpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificUpdatesViewController.swift; sourceTree = "<group>"; };
+		B0D18E4C1D3FE8620077AAE4 /* AcademicsCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicsCommon.swift; sourceTree = "<group>"; };
+		B0D18E4E1D3FE8730077AAE4 /* AcademicsRSSRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicsRSSRecord.swift; sourceTree = "<group>"; };
+		B0D18E501D3FE9050077AAE4 /* AcademicsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicsListViewController.swift; sourceTree = "<group>"; };
+		B0D18E521D3FE9CF0077AAE4 /* AcademicsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicsDetailsViewController.swift; sourceTree = "<group>"; };
+		B0D18E551D3FEB260077AAE4 /* ParentsCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentsCommon.swift; sourceTree = "<group>"; };
+		B0D18E571D3FEB390077AAE4 /* ParentsRSSRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentsRSSRecord.swift; sourceTree = "<group>"; };
+		B0D18E591D3FEB7F0077AAE4 /* ParentsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentsListViewController.swift; sourceTree = "<group>"; };
+		B0D18E5B1D3FEB8F0077AAE4 /* ParentsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentsDetailsViewController.swift; sourceTree = "<group>"; };
+		B0D18E5E1D3FED460077AAE4 /* ClubsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsListViewController.swift; sourceTree = "<group>"; };
+		B0D18E601D3FED550077AAE4 /* ClubsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsDetailsViewController.swift; sourceTree = "<group>"; };
+		B0D18E621D3FED6D0077AAE4 /* ClubsCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsCommon.swift; sourceTree = "<group>"; };
+		B0D18E641D3FED7F0077AAE4 /* ClubsRSSRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsRSSRecord.swift; sourceTree = "<group>"; };
+		B0D18E661D4003A90077AAE4 /* Activity Feed Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Activity Feed Filled-50@2x.png"; path = "../../Desktop/York App/Button Images/Activity Feed Filled-50@2x.png"; sourceTree = "<group>"; };
+		B0D18E671D4003A90077AAE4 /* Activity Feed-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Activity Feed-50@2x.png"; path = "../../Desktop/York App/Button Images/Activity Feed-50@2x.png"; sourceTree = "<group>"; };
+		B0D18E681D4003A90077AAE4 /* Calendar Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calendar Filled-50@2x.png"; path = "../../Desktop/York App/Button Images/Calendar Filled-50@2x.png"; sourceTree = "<group>"; };
+		B0D18E691D4003A90077AAE4 /* Calendar-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calendar-50@2x.png"; path = "../../Desktop/York App/Button Images/Calendar-50@2x.png"; sourceTree = "<group>"; };
+		B0D18E6A1D4003A90077AAE4 /* Document Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Document Filled-50@2x.png"; path = "../../Desktop/York App/Button Images/Document Filled-50@2x.png"; sourceTree = "<group>"; };
+		B0D18E6B1D4003A90077AAE4 /* Document-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Document-50@2x.png"; path = "../../Desktop/York App/Button Images/Document-50@2x.png"; sourceTree = "<group>"; };
+		B0D18E741D4003BC0077AAE4 /* Fall Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fall Play@2x.png"; path = "../../Desktop/York App/Fall Performing Arts/Fall Play@2x.png"; sourceTree = "<group>"; };
+		B0D18E761D4003C60077AAE4 /* Cheerleading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cheerleading@2x.png"; path = "../../Desktop/York App/Fall Sports/Cheerleading@2x.png"; sourceTree = "<group>"; };
+		B0D18E771D4003C60077AAE4 /* Cross Country (Boys)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cross Country (Boys)@2x.png"; path = "../../Desktop/York App/Fall Sports/Cross Country (Boys)@2x.png"; sourceTree = "<group>"; };
+		B0D18E781D4003C60077AAE4 /* Cross Country (Girls)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cross Country (Girls)@2x.png"; path = "../../Desktop/York App/Fall Sports/Cross Country (Girls)@2x.png"; sourceTree = "<group>"; };
+		B0D18E791D4003C60077AAE4 /* Football@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Football@2x.png"; path = "../../Desktop/York App/Fall Sports/Football@2x.png"; sourceTree = "<group>"; };
+		B0D18E7A1D4003C60077AAE4 /* Golf (Boys)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Golf (Boys)@2x.png"; path = "../../Desktop/York App/Fall Sports/Golf (Boys)@2x.png"; sourceTree = "<group>"; };
+		B0D18E7B1D4003C60077AAE4 /* Golf (Girls)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Golf (Girls)@2x.png"; path = "../../Desktop/York App/Fall Sports/Golf (Girls)@2x.png"; sourceTree = "<group>"; };
+		B0D18E7D1D4003C60077AAE4 /* Soccer (Boys)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Soccer (Boys)@2x.png"; path = "../../Desktop/York App/Fall Sports/Soccer (Boys)@2x.png"; sourceTree = "<group>"; };
+		B0D18E7E1D4003C60077AAE4 /* Swimming,Diving (Boys)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Swimming,Diving (Boys)@2x.png"; path = "../../Desktop/York App/Fall Sports/Swimming,Diving (Boys)@2x.png"; sourceTree = "<group>"; };
+		B0D18E7F1D4003C60077AAE4 /* Swimming,Diving (Girls)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Swimming,Diving (Girls)@2x.png"; path = "../../Desktop/York App/Fall Sports/Swimming,Diving (Girls)@2x.png"; sourceTree = "<group>"; };
+		B0D18E801D4003C60077AAE4 /* Tennis (Girls)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tennis (Girls)@2x.png"; path = "../../Desktop/York App/Fall Sports/Tennis (Girls)@2x.png"; sourceTree = "<group>"; };
+		B0D18E811D4003C60077AAE4 /* Volleyball (Girls)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Volleyball (Girls)@2x.png"; path = "../../Desktop/York App/Fall Sports/Volleyball (Girls)@2x.png"; sourceTree = "<group>"; };
+		B0D18E8E1D4003D40077AAE4 /* York High School 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "York High School 2.jpg"; path = "../../Desktop/York App/York High School 2.jpg"; sourceTree = "<group>"; };
+		B0D18E901D4003DC0077AAE4 /* Leaf-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Leaf-100.png"; path = "../../Desktop/York App/Button Images/Leaf-100.png"; sourceTree = "<group>"; };
+		B0D18E911D4003DC0077AAE4 /* Maple Leaf-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Maple Leaf-100.png"; path = "../../Desktop/York App/Button Images/Maple Leaf-100.png"; sourceTree = "<group>"; };
+		B0D18E921D4003DC0077AAE4 /* Winter-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Winter-100.png"; path = "../../Desktop/York App/Button Images/Winter-100.png"; sourceTree = "<group>"; };
+		B0D18E961D4003E30077AAE4 /* Grass-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grass-100.png"; path = "../../Desktop/York App/Button Images/Grass-100.png"; sourceTree = "<group>"; };
+		B0D18E981D400B930077AAE4 /* Delete-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Delete-50@2x.png"; path = "../../Desktop/York App/Button Images/Delete-50@2x.png"; sourceTree = "<group>"; };
+		B0D62FDB1E5B973A0097D00E /* Schedules Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schedules Background.png"; sourceTree = "<group>"; };
+		B0D62FDC1E5B973A0097D00E /* Updates:Blog Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Updates:Blog Background.png"; sourceTree = "<group>"; };
+		B0ECA9051F3A703500108132 /* RSS Filled-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSS Filled-50@2x.png"; sourceTree = "<group>"; };
+		B0ECA9061F3A703500108132 /* RSS-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RSS-50@2x.png"; sourceTree = "<group>"; };
+		B0F555721E9591CF00066BC1 /* York High School 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "York High School 2.jpg"; path = "../../Desktop/York App/York High School 2.jpg"; sourceTree = "<group>"; };
+		B0F555741E9591FA00066BC1 /* York High School 2 copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "York High School 2 copy.jpg"; path = "../../Desktop/York App/York High School 2 copy.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06157571D385DE7009F2E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B061576B1D385DE8009F2E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06157761D385DE8009F2E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00360FE1D3D95820010252C /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E981D400B930077AAE4 /* Delete-50@2x.png */,
+				B0D18E8E1D4003D40077AAE4 /* York High School 2.jpg */,
+				B0F555721E9591CF00066BC1 /* York High School 2.jpg */,
+				B0F555741E9591FA00066BC1 /* York High School 2 copy.jpg */,
+				B0D18E901D4003DC0077AAE4 /* Leaf-100.png */,
+				B0D18E911D4003DC0077AAE4 /* Maple Leaf-100.png */,
+				B0D18E921D4003DC0077AAE4 /* Winter-100.png */,
+				B0D18E961D4003E30077AAE4 /* Grass-100.png */,
+				B0D62FDB1E5B973A0097D00E /* Schedules Background.png */,
+				B0D62FDC1E5B973A0097D00E /* Updates:Blog Background.png */,
+			);
+			name = "Home Page";
+			sourceTree = "<group>";
+		};
+		B00360FF1D3D95940010252C /* Fall Sports */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E761D4003C60077AAE4 /* Cheerleading@2x.png */,
+				B0D18E771D4003C60077AAE4 /* Cross Country (Boys)@2x.png */,
+				B0D18E781D4003C60077AAE4 /* Cross Country (Girls)@2x.png */,
+				B0D18E791D4003C60077AAE4 /* Football@2x.png */,
+				B049676C1D53EE720041A65C /* Football Filled-50@2x.png */,
+				B0D18E7A1D4003C60077AAE4 /* Golf (Boys)@2x.png */,
+				B0D18E7B1D4003C60077AAE4 /* Golf (Girls)@2x.png */,
+				B062A3AF1D727DFE009613D8 /* Soccer (Girls)@2x.png */,
+				B0D18E7D1D4003C60077AAE4 /* Soccer (Boys)@2x.png */,
+				B0D18E7E1D4003C60077AAE4 /* Swimming,Diving (Boys)@2x.png */,
+				B0D18E7F1D4003C60077AAE4 /* Swimming,Diving (Girls)@2x.png */,
+				B0D18E801D4003C60077AAE4 /* Tennis (Girls)@2x.png */,
+				B062A3AA1D727B60009613D8 /* Tennis Filled-50@2x.png */,
+				B0D18E811D4003C60077AAE4 /* Volleyball (Girls)@2x.png */,
+				B062A3AB1D727B60009613D8 /* Volleyball Filled-50@2x.png */,
+			);
+			name = "Fall Sports";
+			sourceTree = "<group>";
+		};
+		B0056EF71D7B7F4100A5F17D /* Fall Activities */ = {
+			isa = PBXGroup;
+			children = (
+				B0056EF81D7B7F7300A5F17D /* FallActivitiesTableViewController.swift */,
+			);
+			name = "Fall Activities";
+			sourceTree = "<group>";
+		};
+		B032B9901DF4CEA600B26C5D /* Winter Sports */ = {
+			isa = PBXGroup;
+			children = (
+				B032B9931DF4CED400B26C5D /* Acrobatics Filled-50@2x.png */,
+				B032B9941DF4CED400B26C5D /* Acrobatics-50@2x.png */,
+				B032B9951DF4CED400B26C5D /* Basketball Filled-50@2x.png */,
+				B032B9961DF4CED400B26C5D /* Basketball-50@2x.png */,
+				B032B9971DF4CED400B26C5D /* Bowling Filled-50@2x.png */,
+				B032B9981DF4CED400B26C5D /* Bowling-50@2x.png */,
+				B032B99A1DF4CED400B26C5D /* Dancing Filled-50@2x.png */,
+				B0A257E21E18AE7400AD01B8 /* Pom Pons@2x.png */,
+				B032B99B1DF4CED400B26C5D /* Pom Pons@2x.png */,
+				B032B99C1DF4CED400B26C5D /* Trampoline Park Filled-50@2x.png */,
+				B032B99D1DF4CED400B26C5D /* Wrestling Filled-50@2x.png */,
+				B032B99E1DF4CED400B26C5D /* Wrestling-50@2x.png */,
+			);
+			name = "Winter Sports";
+			sourceTree = "<group>";
+		};
+		B03844E31D3EBA7B00DA463B /* General RSS Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E231D3F0A8A0077AAE4 /* Common.swift */,
+				B0D18E241D3F0A8A0077AAE4 /* RssRecord.swift */,
+				B0D18E251D3F0A8A0077AAE4 /* ListViewController.swift */,
+				B0D18E261D3F0A8A0077AAE4 /* DetailsViewController.swift */,
+			);
+			name = "General RSS Reader";
+			sourceTree = "<group>";
+		};
+		B06157511D385DE7009F2E02 = {
+			isa = PBXGroup;
+			children = (
+				B061578B1D385E0E009F2E02 /* Pictures */,
+				B061575C1D385DE8009F2E02 /* York Community High School */,
+				B06157711D385DE8009F2E02 /* York Community High SchoolTests */,
+				B061577C1D385DE8009F2E02 /* York Community High SchoolUITests */,
+				B061575B1D385DE7009F2E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B061575B1D385DE7009F2E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B061575A1D385DE7009F2E02 /* York Community High School.app */,
+				B061576E1D385DE8009F2E02 /* York Community High SchoolTests.xctest */,
+				B06157791D385DE8009F2E02 /* York Community High SchoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B061575C1D385DE8009F2E02 /* York Community High School */ = {
+			isa = PBXGroup;
+			children = (
+				B0056EF71D7B7F4100A5F17D /* Fall Activities */,
+				B0C50B161D5140E300821F4F /* Spring Sports */,
+				B0D18E5D1D3FED100077AAE4 /* Clubs RSS Reader */,
+				B0D18E541D3FEAFE0077AAE4 /* Parents RSS Reader */,
+				B0D18E4B1D3FE81E0077AAE4 /* Academics RSS Reader */,
+				B0D18E401D3F23E70077AAE4 /* Athletics RSS Reader */,
+				B0A257E41E18B15E00AD01B8 /* Blog RSS Reader */,
+				B062A3B31D728A06009613D8 /* Instant Updates RSS Reader */,
+				B03844E31D3EBA7B00DA463B /* General RSS Reader */,
+				B061575D1D385DE8009F2E02 /* AppDelegate.swift */,
+				B061575F1D385DE8009F2E02 /* ViewController.swift */,
+				B018CDBE1E5A966100B1A002 /* MainScrollViewController.swift */,
+				B018CDC01E5A9BD200B1A002 /* SpringSportsTableViewController.swift */,
+				B0D18E491D3F268F0077AAE4 /* SpecificUpdatesViewController.swift */,
+				B06157BC1D3D6F9C009F2E02 /* FallTableViewController.swift */,
+				B07B14DB1D3DCFDE003EDA7A /* FallPerfArtsTableViewController.swift */,
+				B07B14D71D3DCC60003EDA7A /* WinterTableViewController.swift */,
+				B07B14D91D3DCDD1003EDA7A /* SpringTableViewController.swift */,
+				B06157611D385DE8009F2E02 /* Main.storyboard */,
+				B06157641D385DE8009F2E02 /* Assets.xcassets */,
+				B06157661D385DE8009F2E02 /* LaunchScreen.storyboard */,
+				B06157691D385DE8009F2E02 /* Info.plist */,
+				B03844DE1D3EAB8B00DA463B /* RSSTableViewController.h */,
+				B03844DF1D3EAB8B00DA463B /* RSSTableViewController.m */,
+				B01786EA1D554523000A4372 /* FALL SPORTS Data Holder */,
+			);
+			path = "York Community High School";
+			sourceTree = "<group>";
+		};
+		B06157711D385DE8009F2E02 /* York Community High SchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B06157721D385DE8009F2E02 /* York_Community_High_SchoolTests.swift */,
+				B06157741D385DE8009F2E02 /* Info.plist */,
+			);
+			path = "York Community High SchoolTests";
+			sourceTree = "<group>";
+		};
+		B061577C1D385DE8009F2E02 /* York Community High SchoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B061577D1D385DE8009F2E02 /* York_Community_High_SchoolUITests.swift */,
+				B061577F1D385DE8009F2E02 /* Info.plist */,
+			);
+			path = "York Community High SchoolUITests";
+			sourceTree = "<group>";
+		};
+		B061578B1D385E0E009F2E02 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				B08929D31E8F493900A8C5AD /* Spring Sports */,
+				B032B9901DF4CEA600B26C5D /* Winter Sports */,
+				B0D18E2B1D3F10B60077AAE4 /* Tab Bar */,
+				B07B14DD1D3DD062003EDA7A /* Fall Performing Arts */,
+				B00360FF1D3D95940010252C /* Fall Sports */,
+				B00360FE1D3D95820010252C /* Home Page */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		B062A3681D61005B009613D8 /* Track & Field (Girls) */ = {
+			isa = PBXGroup;
+			children = (
+				B0C50B1D1D51451500821F4F /* FootballTableViewCell.swift */,
+				B0C50B1B1D5143D000821F4F /* VarsityFootballTableViewController.swift */,
+				B04967701D53F7620041A65C /* SophomoreFootballTableViewController.swift */,
+				B08929BC1E8F34D200A8C5AD /* Extra */,
+			);
+			name = "Track & Field (Girls)";
+			sourceTree = "<group>";
+		};
+		B062A3691D610077009613D8 /* Track & Field (Boys) */ = {
+			isa = PBXGroup;
+			children = (
+				B062A36A1D6101C9009613D8 /* VarsityXCBoysTableViewController.swift */,
+				B062A36C1D610B1E009613D8 /* SophomoreXCBoysTableViewController.swift */,
+				B062A36E1D610B7C009613D8 /* JVXCBoysTableViewController.swift */,
+				B062A3701D610BD2009613D8 /* FreshmanXCBoysTableViewController.swift */,
+				B08929BB1E8F33EC00A8C5AD /* Extra */,
+			);
+			name = "Track & Field (Boys)";
+			sourceTree = "<group>";
+		};
+		B062A3721D610D9F009613D8 /* Tennis (Boys) */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3731D610DC3009613D8 /* VarsityXCGirlsTableViewController.swift */,
+				B062A3771D610DEA009613D8 /* JVXCGirlsTableViewController.swift */,
+				B062A3751D610DD9009613D8 /* SophomoreXCGirlsTableViewController.swift */,
+				B08929BA1E8F331200A8C5AD /* Extra */,
+			);
+			name = "Tennis (Boys)";
+			sourceTree = "<group>";
+		};
+		B062A37B1D6D2B81009613D8 /* Softball */ = {
+			isa = PBXGroup;
+			children = (
+				B062A37C1D6D2BA7009613D8 /* VarsityGolfBoysTableViewController.swift */,
+				B062A37E1D6D2BBA009613D8 /* SophomoreGolfBoysTableViewController.swift */,
+				B062A38E1D6D30F8009613D8 /* FreshBSoccerBoysTableViewController.swift */,
+			);
+			name = Softball;
+			sourceTree = "<group>";
+		};
+		B062A3801D6D2EE1009613D8 /* Soccer (Girls) */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3811D6D2EF7009613D8 /* VarsityGolfGirlsTableViewController.swift */,
+				B062A3831D6D2F10009613D8 /* JVGolfGirlsTableViewController.swift */,
+				B032B98C1DF4ACFD00B26C5D /* JV2GymnasticsGirlsTableViewController.swift */,
+				B032B98E1DF4AD0F00B26C5D /* FreshmanGymnasticsGirlsTableViewController.swift */,
+			);
+			name = "Soccer (Girls)";
+			sourceTree = "<group>";
+		};
+		B062A3851D6D3057009613D8 /* Lacrosse (Girls) */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3861D6D30AF009613D8 /* VarsitySoccerBoysTableViewController.swift */,
+				B062A38A1D6D30E0009613D8 /* JVSoccerBoysTableViewController.swift */,
+				B062A38C1D6D30EC009613D8 /* FreshmanSoccerBoysTableViewController.swift */,
+				B08929B91E8F085500A8C5AD /* Extra */,
+			);
+			name = "Lacrosse (Girls)";
+			sourceTree = "<group>";
+		};
+		B062A3901D6D3646009613D8 /* Gymnastics (Boys) */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3911D6D366F009613D8 /* VarsityTennisGirlsTableViewController.swift */,
+				B062A3931D6D3680009613D8 /* JV1TennisGirlsTableViewController.swift */,
+				B062A3951D6D368F009613D8 /* JV2TennisGirlsTableViewController.swift */,
+			);
+			name = "Gymnastics (Boys)";
+			sourceTree = "<group>";
+		};
+		B062A3971D727430009613D8 /* Lacrosse (Boys) */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3991D7274B1009613D8 /* VarsitySwimmingGirlsTableViewController.swift */,
+				B062A39D1D727539009613D8 /* JVSwimmingGirlsTableViewController.swift */,
+				B062A39B1D727529009613D8 /* SophomoreSwimmingGirlsTableViewController.swift */,
+			);
+			name = "Lacrosse (Boys)";
+			sourceTree = "<group>";
+		};
+		B062A3981D727484009613D8 /* Baseball */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3A11D7277F7009613D8 /* VarsityVolleyballGirlsTableViewController.swift */,
+				B062A3A31D727814009613D8 /* SophomoreVolleyballGirlsTableViewController.swift */,
+				B08929B71E8F05D400A8C5AD /* JVBaseballTableViewController.swift */,
+				B062A3A51D727829009613D8 /* FAVolleyballGirlsTableViewController.swift */,
+				B062A3A71D727836009613D8 /* FBVolleyballGirlsTableViewController.swift */,
+			);
+			name = Baseball;
+			sourceTree = "<group>";
+		};
+		B062A3B31D728A06009613D8 /* Instant Updates RSS Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3B41D728A50009613D8 /* InstantCommon.swift */,
+				B062A3B61D728A7B009613D8 /* InstantRssRecord.swift */,
+				B062A3B81D728AB2009613D8 /* InstantListViewController.swift */,
+				B062A3BA1D728AF1009613D8 /* InstantDetailsViewController.swift */,
+			);
+			name = "Instant Updates RSS Reader";
+			sourceTree = "<group>";
+		};
+		B07B14DD1D3DD062003EDA7A /* Fall Performing Arts */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E741D4003BC0077AAE4 /* Fall Play@2x.png */,
+			);
+			name = "Fall Performing Arts";
+			sourceTree = "<group>";
+		};
+		B08929B01E8F03B500A8C5AD /* Volleyball (Boys) */ = {
+			isa = PBXGroup;
+			children = (
+				B08929BD1E8F367F00A8C5AD /* VarsityVolleyballTableViewController.swift */,
+				B08929BF1E8F368C00A8C5AD /* JVVolleyballTableViewController.swift */,
+				B08929C11E8F369700A8C5AD /* FAVolleyballTableViewController.swift */,
+				B08929C31E8F36A300A8C5AD /* FBVolleyballTableViewController.swift */,
+			);
+			name = "Volleyball (Boys)";
+			sourceTree = "<group>";
+		};
+		B08929B11E8F03DD00A8C5AD /* Water Polo (Boys) */ = {
+			isa = PBXGroup;
+			children = (
+				B08929C51E8F379600A8C5AD /* VarsityBPoloTableViewController.swift */,
+				B08929C71E8F37A000A8C5AD /* JVBPoloTableViewController.swift */,
+			);
+			name = "Water Polo (Boys)";
+			sourceTree = "<group>";
+		};
+		B08929B21E8F03EE00A8C5AD /* Water Polo (Girls) */ = {
+			isa = PBXGroup;
+			children = (
+				B08929C91E8F37AC00A8C5AD /* VaristyGPoloTableViewController.swift */,
+				B08929CB1E8F37B600A8C5AD /* JVGPoloTableViewController.swift */,
+			);
+			name = "Water Polo (Girls)";
+			sourceTree = "<group>";
+		};
+		B08929B91E8F085500A8C5AD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3881D6D30CD009613D8 /* SophomoreSoccerBoysTableViewController.swift */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
+		B08929BA1E8F331200A8C5AD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				B062A3791D610E0B009613D8 /* FreshmanXCGirlsTableViewController.swift */,
+				B032B98A1DF4A82E00B26C5D /* BasketballGirlsFreshBTableViewController.swift */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
+		B08929BB1E8F33EC00A8C5AD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				B032B9881DF4A52400B26C5D /* FreshmanABasketballTableViewController.swift */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
+		B08929BC1E8F34D200A8C5AD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				B049676E1D53F25C0041A65C /* JVFootballTableViewController.swift */,
+				B04967721D53F9600041A65C /* FAFootballTableViewController.swift */,
+				B04967741D53FA6D0041A65C /* FBFootballTableViewController.swift */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
+		B08929D31E8F493900A8C5AD /* Spring Sports */ = {
+			isa = PBXGroup;
+			children = (
+				B08929D41E8F495800A8C5AD /* Baseball Filled-50@2x.png */,
+				B08929D51E8F495800A8C5AD /* Baseball-50@2x.png */,
+				B08929D61E8F495800A8C5AD /* Lacrosse Stick Filled-50@2x.png */,
+				B08929D71E8F495800A8C5AD /* Lacrosse Stick-50@2x.png */,
+				B08929E01E8F49C100A8C5AD /* Shuttercock Filled-50@2x.png */,
+				B08929D91E8F495800A8C5AD /* Shuttercock-50@2x.png */,
+			);
+			name = "Spring Sports";
+			sourceTree = "<group>";
+		};
+		B09065271E133AC6003B14C6 /* Badminton */ = {
+			isa = PBXGroup;
+			children = (
+				B09065281E133B25003B14C6 /* BasketballSOTableViewController.swift */,
+				B08929B31E8F04D300A8C5AD /* BadmintonJVTableViewController.swift */,
+				B08929B51E8F04E700A8C5AD /* BadmintonFreshTableViewController.swift */,
+			);
+			name = Badminton;
+			sourceTree = "<group>";
+		};
+		B0A257E41E18B15E00AD01B8 /* Blog RSS Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B0A257E51E18B1B500AD01B8 /* BlogCommon.swift */,
+				B0A257E71E18B1E600AD01B8 /* BlogRssRecord.swift */,
+				B0A257E91E18B22B00AD01B8 /* BlogListViewController.swift */,
+				B0A257EB1E18B23B00AD01B8 /* BlogDetailsViewController.swift */,
+				B0A257ED1E18C5FE00AD01B8 /* BlogNavViewController.swift */,
+			);
+			name = "Blog RSS Reader";
+			sourceTree = "<group>";
+		};
+		B0C50B161D5140E300821F4F /* Spring Sports */ = {
+			isa = PBXGroup;
+			children = (
+				B09065271E133AC6003B14C6 /* Badminton */,
+				B062A3981D727484009613D8 /* Baseball */,
+				B062A3901D6D3646009613D8 /* Gymnastics (Boys) */,
+				B062A3971D727430009613D8 /* Lacrosse (Boys) */,
+				B062A3851D6D3057009613D8 /* Lacrosse (Girls) */,
+				B062A3801D6D2EE1009613D8 /* Soccer (Girls) */,
+				B062A37B1D6D2B81009613D8 /* Softball */,
+				B062A3721D610D9F009613D8 /* Tennis (Boys) */,
+				B062A3691D610077009613D8 /* Track & Field (Boys) */,
+				B062A3681D61005B009613D8 /* Track & Field (Girls) */,
+				B08929B01E8F03B500A8C5AD /* Volleyball (Boys) */,
+				B08929B11E8F03DD00A8C5AD /* Water Polo (Boys) */,
+				B08929B21E8F03EE00A8C5AD /* Water Polo (Girls) */,
+				B06157BE1D3D89D0009F2E02 /* FallSportsTableViewController.swift */,
+			);
+			name = "Spring Sports";
+			sourceTree = "<group>";
+		};
+		B0D18E2B1D3F10B60077AAE4 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				B0ECA9051F3A703500108132 /* RSS Filled-50@2x.png */,
+				B0ECA9061F3A703500108132 /* RSS-50@2x.png */,
+				B0D18E661D4003A90077AAE4 /* Activity Feed Filled-50@2x.png */,
+				B0D18E671D4003A90077AAE4 /* Activity Feed-50@2x.png */,
+				B0D18E681D4003A90077AAE4 /* Calendar Filled-50@2x.png */,
+				B0D18E691D4003A90077AAE4 /* Calendar-50@2x.png */,
+				B0D18E6A1D4003A90077AAE4 /* Document Filled-50@2x.png */,
+				B0D18E6B1D4003A90077AAE4 /* Document-50@2x.png */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		B0D18E401D3F23E70077AAE4 /* Athletics RSS Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E411D3F241E0077AAE4 /* AthleticsCommon.swift */,
+				B0D18E431D3F24A10077AAE4 /* AthleticsRSSRecord.swift */,
+				B0D18E451D3F24E10077AAE4 /* AthleticsListViewController.swift */,
+				B0D18E471D3F255B0077AAE4 /* AthleticsDetailsViewController.swift */,
+			);
+			name = "Athletics RSS Reader";
+			sourceTree = "<group>";
+		};
+		B0D18E4B1D3FE81E0077AAE4 /* Academics RSS Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E4C1D3FE8620077AAE4 /* AcademicsCommon.swift */,
+				B0D18E4E1D3FE8730077AAE4 /* AcademicsRSSRecord.swift */,
+				B0D18E501D3FE9050077AAE4 /* AcademicsListViewController.swift */,
+				B0D18E521D3FE9CF0077AAE4 /* AcademicsDetailsViewController.swift */,
+			);
+			name = "Academics RSS Reader";
+			sourceTree = "<group>";
+		};
+		B0D18E541D3FEAFE0077AAE4 /* Parents RSS Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E551D3FEB260077AAE4 /* ParentsCommon.swift */,
+				B0D18E571D3FEB390077AAE4 /* ParentsRSSRecord.swift */,
+				B0D18E591D3FEB7F0077AAE4 /* ParentsListViewController.swift */,
+				B0D18E5B1D3FEB8F0077AAE4 /* ParentsDetailsViewController.swift */,
+			);
+			name = "Parents RSS Reader";
+			sourceTree = "<group>";
+		};
+		B0D18E5D1D3FED100077AAE4 /* Clubs RSS Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B0D18E621D3FED6D0077AAE4 /* ClubsCommon.swift */,
+				B0D18E641D3FED7F0077AAE4 /* ClubsRSSRecord.swift */,
+				B0D18E5E1D3FED460077AAE4 /* ClubsListViewController.swift */,
+				B0D18E601D3FED550077AAE4 /* ClubsDetailsViewController.swift */,
+			);
+			name = "Clubs RSS Reader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06157591D385DE7009F2E02 /* York Community High School */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06157821D385DE8009F2E02 /* Build configuration list for PBXNativeTarget "York Community High School" */;
+			buildPhases = (
+				B06157561D385DE7009F2E02 /* Sources */,
+				B06157571D385DE7009F2E02 /* Frameworks */,
+				B06157581D385DE7009F2E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "York Community High School";
+			productName = "York Community High School";
+			productReference = B061575A1D385DE7009F2E02 /* York Community High School.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B061576D1D385DE8009F2E02 /* York Community High SchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06157851D385DE8009F2E02 /* Build configuration list for PBXNativeTarget "York Community High SchoolTests" */;
+			buildPhases = (
+				B061576A1D385DE8009F2E02 /* Sources */,
+				B061576B1D385DE8009F2E02 /* Frameworks */,
+				B061576C1D385DE8009F2E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06157701D385DE8009F2E02 /* PBXTargetDependency */,
+			);
+			name = "York Community High SchoolTests";
+			productName = "York Community High SchoolTests";
+			productReference = B061576E1D385DE8009F2E02 /* York Community High SchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B06157781D385DE8009F2E02 /* York Community High SchoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06157881D385DE8009F2E02 /* Build configuration list for PBXNativeTarget "York Community High SchoolUITests" */;
+			buildPhases = (
+				B06157751D385DE8009F2E02 /* Sources */,
+				B06157761D385DE8009F2E02 /* Frameworks */,
+				B06157771D385DE8009F2E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B061577B1D385DE8009F2E02 /* PBXTargetDependency */,
+			);
+			name = "York Community High SchoolUITests";
+			productName = "York Community High SchoolUITests";
+			productReference = B06157791D385DE8009F2E02 /* York Community High SchoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06157521D385DE7009F2E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Domenic Conversa";
+				TargetAttributes = {
+					B06157591D385DE7009F2E02 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S977NQ4524;
+						LastSwiftMigration = 0800;
+					};
+					B061576D1D385DE8009F2E02 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = B06157591D385DE7009F2E02;
+					};
+					B06157781D385DE8009F2E02 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = B06157591D385DE7009F2E02;
+					};
+				};
+			};
+			buildConfigurationList = B06157551D385DE7009F2E02 /* Build configuration list for PBXProject "York Community High School" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06157511D385DE7009F2E02;
+			productRefGroup = B061575B1D385DE7009F2E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06157591D385DE7009F2E02 /* York Community High School */,
+				B061576D1D385DE8009F2E02 /* York Community High SchoolTests */,
+				B06157781D385DE8009F2E02 /* York Community High SchoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06157581D385DE7009F2E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B032B9AA1DF4CED400B26C5D /* Wrestling-50@2x.png in Resources */,
+				B032B9A31DF4CED400B26C5D /* Bowling Filled-50@2x.png in Resources */,
+				B032B9A71DF4CED400B26C5D /* Pom Pons@2x.png in Resources */,
+				B01786EB1D554523000A4372 /* FALL SPORTS Data Holder in Resources */,
+				B032B9A61DF4CED400B26C5D /* Dancing Filled-50@2x.png in Resources */,
+				B0D18E751D4003BC0077AAE4 /* Fall Play@2x.png in Resources */,
+				B032B99F1DF4CED400B26C5D /* Acrobatics Filled-50@2x.png in Resources */,
+				B0D18E861D4003C60077AAE4 /* Golf (Boys)@2x.png in Resources */,
+				B0D18E8F1D4003D40077AAE4 /* York High School 2.jpg in Resources */,
+				B0A257E31E18AE7400AD01B8 /* Pom Pons@2x.png in Resources */,
+				B0D18E831D4003C60077AAE4 /* Cross Country (Boys)@2x.png in Resources */,
+				B08929DF1E8F495900A8C5AD /* Shuttercock-50@2x.png in Resources */,
+				B032B9A41DF4CED400B26C5D /* Bowling-50@2x.png in Resources */,
+				B0D18E931D4003DC0077AAE4 /* Leaf-100.png in Resources */,
+				B062A3AD1D727B60009613D8 /* Tennis Filled-50@2x.png in Resources */,
+				B032B9A21DF4CED400B26C5D /* Basketball-50@2x.png in Resources */,
+				B0ECA9071F3A703500108132 /* RSS Filled-50@2x.png in Resources */,
+				B0D18E851D4003C60077AAE4 /* Football@2x.png in Resources */,
+				B08929DA1E8F495800A8C5AD /* Baseball Filled-50@2x.png in Resources */,
+				B032B9A01DF4CED400B26C5D /* Acrobatics-50@2x.png in Resources */,
+				B0D18E821D4003C60077AAE4 /* Cheerleading@2x.png in Resources */,
+				B0D18E951D4003DC0077AAE4 /* Winter-100.png in Resources */,
+				B049676D1D53EE720041A65C /* Football Filled-50@2x.png in Resources */,
+				B08929DD1E8F495900A8C5AD /* Lacrosse Stick-50@2x.png in Resources */,
+				B0D18E8B1D4003C60077AAE4 /* Swimming,Diving (Girls)@2x.png in Resources */,
+				B032B9A11DF4CED400B26C5D /* Basketball Filled-50@2x.png in Resources */,
+				B0D18E701D4003A90077AAE4 /* Calendar-50@2x.png in Resources */,
+				B0D18E8C1D4003C60077AAE4 /* Tennis (Girls)@2x.png in Resources */,
+				B0D18E721D4003A90077AAE4 /* Document-50@2x.png in Resources */,
+				B062A3AE1D727B60009613D8 /* Volleyball Filled-50@2x.png in Resources */,
+				B06157681D385DE8009F2E02 /* LaunchScreen.storyboard in Resources */,
+				B062A3B01D727DFE009613D8 /* Soccer (Girls)@2x.png in Resources */,
+				B0D18E991D400B930077AAE4 /* Delete-50@2x.png in Resources */,
+				B0F555731E9591CF00066BC1 /* York High School 2.jpg in Resources */,
+				B0D18E841D4003C60077AAE4 /* Cross Country (Girls)@2x.png in Resources */,
+				B08929E11E8F49C100A8C5AD /* Shuttercock Filled-50@2x.png in Resources */,
+				B0ECA9081F3A703500108132 /* RSS-50@2x.png in Resources */,
+				B0F555751E9591FA00066BC1 /* York High School 2 copy.jpg in Resources */,
+				B0D18E8A1D4003C60077AAE4 /* Swimming,Diving (Boys)@2x.png in Resources */,
+				B06157651D385DE8009F2E02 /* Assets.xcassets in Resources */,
+				B032B9A91DF4CED400B26C5D /* Wrestling Filled-50@2x.png in Resources */,
+				B0D62FDE1E5B973A0097D00E /* Updates:Blog Background.png in Resources */,
+				B0D18E8D1D4003C60077AAE4 /* Volleyball (Girls)@2x.png in Resources */,
+				B08929DC1E8F495900A8C5AD /* Lacrosse Stick Filled-50@2x.png in Resources */,
+				B08929DB1E8F495900A8C5AD /* Baseball-50@2x.png in Resources */,
+				B0D18E6E1D4003A90077AAE4 /* Activity Feed-50@2x.png in Resources */,
+				B0D18E871D4003C60077AAE4 /* Golf (Girls)@2x.png in Resources */,
+				B032B9A81DF4CED400B26C5D /* Trampoline Park Filled-50@2x.png in Resources */,
+				B0D18E711D4003A90077AAE4 /* Document Filled-50@2x.png in Resources */,
+				B0D62FDD1E5B973A0097D00E /* Schedules Background.png in Resources */,
+				B0D18E6D1D4003A90077AAE4 /* Activity Feed Filled-50@2x.png in Resources */,
+				B0D18E941D4003DC0077AAE4 /* Maple Leaf-100.png in Resources */,
+				B06157631D385DE8009F2E02 /* Main.storyboard in Resources */,
+				B0D18E6F1D4003A90077AAE4 /* Calendar Filled-50@2x.png in Resources */,
+				B0D18E971D4003E30077AAE4 /* Grass-100.png in Resources */,
+				B0D18E891D4003C60077AAE4 /* Soccer (Boys)@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B061576C1D385DE8009F2E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06157771D385DE8009F2E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06157561D385DE7009F2E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08929CC1E8F37B600A8C5AD /* JVGPoloTableViewController.swift in Sources */,
+				B07B14DC1D3DCFDE003EDA7A /* FallPerfArtsTableViewController.swift in Sources */,
+				B0D18E4A1D3F268F0077AAE4 /* SpecificUpdatesViewController.swift in Sources */,
+				B062A3781D610DEA009613D8 /* JVXCGirlsTableViewController.swift in Sources */,
+				B0D18E5A1D3FEB7F0077AAE4 /* ParentsListViewController.swift in Sources */,
+				B06157601D385DE8009F2E02 /* ViewController.swift in Sources */,
+				B0D18E611D3FED550077AAE4 /* ClubsDetailsViewController.swift in Sources */,
+				B0D18E511D3FE9050077AAE4 /* AcademicsListViewController.swift in Sources */,
+				B062A36B1D6101C9009613D8 /* VarsityXCBoysTableViewController.swift in Sources */,
+				B0D18E561D3FEB260077AAE4 /* ParentsCommon.swift in Sources */,
+				B08929C21E8F369700A8C5AD /* FAVolleyballTableViewController.swift in Sources */,
+				B062A36D1D610B1E009613D8 /* SophomoreXCBoysTableViewController.swift in Sources */,
+				B032B98B1DF4A82E00B26C5D /* BasketballGirlsFreshBTableViewController.swift in Sources */,
+				B03844E01D3EAB8B00DA463B /* RSSTableViewController.m in Sources */,
+				B0C50B1C1D5143D000821F4F /* VarsityFootballTableViewController.swift in Sources */,
+				B062A39E1D727539009613D8 /* JVSwimmingGirlsTableViewController.swift in Sources */,
+				B062A3941D6D3680009613D8 /* JV1TennisGirlsTableViewController.swift in Sources */,
+				B0056EF91D7B7F7300A5F17D /* FallActivitiesTableViewController.swift in Sources */,
+				B0A257EE1E18C5FE00AD01B8 /* BlogNavViewController.swift in Sources */,
+				B032B98F1DF4AD0F00B26C5D /* FreshmanGymnasticsGirlsTableViewController.swift in Sources */,
+				B062A3761D610DD9009613D8 /* SophomoreXCGirlsTableViewController.swift in Sources */,
+				B0D18E461D3F24E10077AAE4 /* AthleticsListViewController.swift in Sources */,
+				B0D18E281D3F0A8A0077AAE4 /* RssRecord.swift in Sources */,
+				B062A3A81D727836009613D8 /* FBVolleyballGirlsTableViewController.swift in Sources */,
+				B0D18E481D3F255B0077AAE4 /* AthleticsDetailsViewController.swift in Sources */,
+				B032B98D1DF4ACFD00B26C5D /* JV2GymnasticsGirlsTableViewController.swift in Sources */,
+				B08929B61E8F04E700A8C5AD /* BadmintonFreshTableViewController.swift in Sources */,
+				B08929C61E8F379600A8C5AD /* VarsityBPoloTableViewController.swift in Sources */,
+				B0A257EC1E18B23B00AD01B8 /* BlogDetailsViewController.swift in Sources */,
+				B0A257E81E18B1E600AD01B8 /* BlogRssRecord.swift in Sources */,
+				B062A3961D6D368F009613D8 /* JV2TennisGirlsTableViewController.swift in Sources */,
+				B0D18E581D3FEB390077AAE4 /* ParentsRSSRecord.swift in Sources */,
+				B04967751D53FA6D0041A65C /* FBFootballTableViewController.swift in Sources */,
+				B0D18E421D3F241E0077AAE4 /* AthleticsCommon.swift in Sources */,
+				B062A3BB1D728AF1009613D8 /* InstantDetailsViewController.swift in Sources */,
+				B062A3841D6D2F10009613D8 /* JVGolfGirlsTableViewController.swift in Sources */,
+				B062A3921D6D366F009613D8 /* VarsityTennisGirlsTableViewController.swift in Sources */,
+				B062A36F1D610B7C009613D8 /* JVXCBoysTableViewController.swift in Sources */,
+				B08929B41E8F04D300A8C5AD /* BadmintonJVTableViewController.swift in Sources */,
+				B0D18E4F1D3FE8730077AAE4 /* AcademicsRSSRecord.swift in Sources */,
+				B062A3A41D727814009613D8 /* SophomoreVolleyballGirlsTableViewController.swift in Sources */,
+				B018CDBF1E5A966100B1A002 /* MainScrollViewController.swift in Sources */,
+				B062A3A61D727829009613D8 /* FAVolleyballGirlsTableViewController.swift in Sources */,
+				B062A39C1D727529009613D8 /* SophomoreSwimmingGirlsTableViewController.swift in Sources */,
+				B062A37D1D6D2BA7009613D8 /* VarsityGolfBoysTableViewController.swift in Sources */,
+				B0C50B1E1D51451500821F4F /* FootballTableViewCell.swift in Sources */,
+				B062A38D1D6D30EC009613D8 /* FreshmanSoccerBoysTableViewController.swift in Sources */,
+				B08929C41E8F36A300A8C5AD /* FBVolleyballTableViewController.swift in Sources */,
+				B018CDC11E5A9BD200B1A002 /* SpringSportsTableViewController.swift in Sources */,
+				B0D18E631D3FED6D0077AAE4 /* ClubsCommon.swift in Sources */,
+				B0D18E441D3F24A10077AAE4 /* AthleticsRSSRecord.swift in Sources */,
+				B062A3B91D728AB2009613D8 /* InstantListViewController.swift in Sources */,
+				B062A3871D6D30AF009613D8 /* VarsitySoccerBoysTableViewController.swift in Sources */,
+				B0D18E4D1D3FE8620077AAE4 /* AcademicsCommon.swift in Sources */,
+				B0D18E531D3FE9CF0077AAE4 /* AcademicsDetailsViewController.swift in Sources */,
+				B0D18E5F1D3FED460077AAE4 /* ClubsListViewController.swift in Sources */,
+				B062A3A21D7277F7009613D8 /* VarsityVolleyballGirlsTableViewController.swift in Sources */,
+				B062A37A1D610E0B009613D8 /* FreshmanXCGirlsTableViewController.swift in Sources */,
+				B062A3B71D728A7B009613D8 /* InstantRssRecord.swift in Sources */,
+				B0A257E61E18B1B500AD01B8 /* BlogCommon.swift in Sources */,
+				B061575E1D385DE8009F2E02 /* AppDelegate.swift in Sources */,
+				B0D18E291D3F0A8A0077AAE4 /* ListViewController.swift in Sources */,
+				B0D18E271D3F0A8A0077AAE4 /* Common.swift in Sources */,
+				B062A3B51D728A50009613D8 /* InstantCommon.swift in Sources */,
+				B062A3821D6D2EF7009613D8 /* VarsityGolfGirlsTableViewController.swift in Sources */,
+				B049676F1D53F25C0041A65C /* JVFootballTableViewController.swift in Sources */,
+				B09065291E133B25003B14C6 /* BasketballSOTableViewController.swift in Sources */,
+				B04967711D53F7620041A65C /* SophomoreFootballTableViewController.swift in Sources */,
+				B07B14DA1D3DCDD1003EDA7A /* SpringTableViewController.swift in Sources */,
+				B08929C81E8F37A000A8C5AD /* JVBPoloTableViewController.swift in Sources */,
+				B08929C01E8F368C00A8C5AD /* JVVolleyballTableViewController.swift in Sources */,
+				B0D18E5C1D3FEB8F0077AAE4 /* ParentsDetailsViewController.swift in Sources */,
+				B06157BD1D3D6F9C009F2E02 /* FallTableViewController.swift in Sources */,
+				B0D18E651D3FED7F0077AAE4 /* ClubsRSSRecord.swift in Sources */,
+				B062A39A1D7274B1009613D8 /* VarsitySwimmingGirlsTableViewController.swift in Sources */,
+				B062A38B1D6D30E0009613D8 /* JVSoccerBoysTableViewController.swift in Sources */,
+				B062A37F1D6D2BBA009613D8 /* SophomoreGolfBoysTableViewController.swift in Sources */,
+				B07B14D81D3DCC60003EDA7A /* WinterTableViewController.swift in Sources */,
+				B032B9891DF4A52400B26C5D /* FreshmanABasketballTableViewController.swift in Sources */,
+				B08929B81E8F05D400A8C5AD /* JVBaseballTableViewController.swift in Sources */,
+				B0A257EA1E18B22B00AD01B8 /* BlogListViewController.swift in Sources */,
+				B04967731D53F9600041A65C /* FAFootballTableViewController.swift in Sources */,
+				B08929CA1E8F37AC00A8C5AD /* VaristyGPoloTableViewController.swift in Sources */,
+				B062A3711D610BD2009613D8 /* FreshmanXCBoysTableViewController.swift in Sources */,
+				B06157BF1D3D89D0009F2E02 /* FallSportsTableViewController.swift in Sources */,
+				B062A3891D6D30CD009613D8 /* SophomoreSoccerBoysTableViewController.swift in Sources */,
+				B062A38F1D6D30F8009613D8 /* FreshBSoccerBoysTableViewController.swift in Sources */,
+				B08929BE1E8F367F00A8C5AD /* VarsityVolleyballTableViewController.swift in Sources */,
+				B0D18E2A1D3F0A8A0077AAE4 /* DetailsViewController.swift in Sources */,
+				B062A3741D610DC3009613D8 /* VarsityXCGirlsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B061576A1D385DE8009F2E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06157731D385DE8009F2E02 /* York_Community_High_SchoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06157751D385DE8009F2E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B061577E1D385DE8009F2E02 /* York_Community_High_SchoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B06157701D385DE8009F2E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06157591D385DE7009F2E02 /* York Community High School */;
+			targetProxy = B061576F1D385DE8009F2E02 /* PBXContainerItemProxy */;
+		};
+		B061577B1D385DE8009F2E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06157591D385DE7009F2E02 /* York Community High School */;
+			targetProxy = B061577A1D385DE8009F2E02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B06157611D385DE8009F2E02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06157621D385DE8009F2E02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B06157661D385DE8009F2E02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06157671D385DE8009F2E02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B06157801D385DE8009F2E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B06157811D385DE8009F2E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06157831D385DE8009F2E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = S977NQ4524;
+				INFOPLIST_FILE = "York Community High School/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DomenicConversa.York-Community-High-School";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "York Community High School/York Community High School-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B06157841D385DE8009F2E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = S977NQ4524;
+				INFOPLIST_FILE = "York Community High School/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DomenicConversa.York-Community-High-School";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "York Community High School/York Community High School-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B06157861D385DE8009F2E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "York Community High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DomenicConversa.York-Community-High-SchoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/York Community High School.app/York Community High School";
+			};
+			name = Debug;
+		};
+		B06157871D385DE8009F2E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "York Community High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DomenicConversa.York-Community-High-SchoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/York Community High School.app/York Community High School";
+			};
+			name = Release;
+		};
+		B06157891D385DE8009F2E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "York Community High SchoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DomenicConversa.York-Community-High-SchoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "York Community High School";
+			};
+			name = Debug;
+		};
+		B061578A1D385DE8009F2E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "York Community High SchoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DomenicConversa.York-Community-High-SchoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "York Community High School";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06157551D385DE7009F2E02 /* Build configuration list for PBXProject "York Community High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06157801D385DE8009F2E02 /* Debug */,
+				B06157811D385DE8009F2E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06157821D385DE8009F2E02 /* Build configuration list for PBXNativeTarget "York Community High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06157831D385DE8009F2E02 /* Debug */,
+				B06157841D385DE8009F2E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06157851D385DE8009F2E02 /* Build configuration list for PBXNativeTarget "York Community High SchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06157861D385DE8009F2E02 /* Debug */,
+				B06157871D385DE8009F2E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06157881D385DE8009F2E02 /* Build configuration list for PBXNativeTarget "York Community High SchoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06157891D385DE8009F2E02 /* Debug */,
+				B061578A1D385DE8009F2E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06157521D385DE7009F2E02 /* Project object */;
+}
